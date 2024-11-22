@@ -180,7 +180,39 @@ header {
     height: 80px;
     background-color: rgb(60, 60, 60);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     border-top: solid white 2px;
+}
+
+.footer-info-content {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.bottom-logo {
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: pink;
+}
+
+.bottom-button {
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: pink;
 }
