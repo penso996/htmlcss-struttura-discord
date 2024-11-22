@@ -1,0 +1,65 @@
+/*general rules*/
+* {
+    border: 0px;
+}
+
+
+/*header*/
+header {
+    height: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*header functions*/
+.header-functions {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+.logo {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    text-align: left;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
+
+
+/*link*/
+.header-nav {
+    width: 80%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+
+/*login*/
+.login {
+    width: 20%;
+    height: 100%;
+    align-content: center;
+    text-align: right;
+    text-decoration: none;
+    /*test*/
+    border: solid black 1px;
+    background-color: orange;
+}
