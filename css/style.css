@@ -18,7 +18,7 @@ header {
 /*header functions*/
 .header-functions {
     width: 60%;
-    height: 40%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,15 +164,58 @@ header {
     justify-content: center;
 }
 
-/*this need work!!*/
 .footer-content {
     width: 60%;
     height: 100%;
+    justify-content: center;
+    display: flex;
     flex-direction: row;
-    border: solid black 1px;
-    background-color: lightskyblue;
 }
 
+.main-column {
+    width: 36%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: pink;
+    border: solid black 1px;
+}
+
+.column2 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column3 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column4 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column5 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
 
 /*footer info*/
 .footer-info-bgr {
