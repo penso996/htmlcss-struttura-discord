@@ -84,3 +84,40 @@ header {
     border: solid black 1px;
     background-color: palevioletred;
 }
+
+
+/*main sections and content*/
+.section1-3 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.section-content1 {
+    width: 40%;
+    height: 80%;
+    /*test*/
+    border: solid black 1px;
+    background-color: lightskyblue;
+}
+
+.section-content2 {
+    width: 20%;
+    height: 80%;
+    /*test*/
+    border: solid black 1px;
+    background-color: palevioletred;
+}
